@@ -1,3 +1,7 @@
+# para lanzar
+export FLASK_APP=run.py
+flask run
+
 # [Flask Neumorphism UI Kit](https://appseed.us/apps/flask-apps/flask-neumorphism-uikit)
 
 > **Open-Source Web App** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
@@ -53,7 +57,7 @@ $ # (Powershell) $env:FLASK_ENV = "development"
 $
 $ # Run the application
 $ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
-$ # --port=5000    - specify the app port (default 5000)  
+$ # --port=5000    - specify the app port (default 5000)
 $ flask run --host=0.0.0.0 --port=5000
 $
 $ # Access the app in browser: http://127.0.0.1:5000/
@@ -92,7 +96,7 @@ The project has a super simple structure, represented as bellow:
    |    |    |-- accounts/                 # Auth Pages (login, register)
    |    |    |    |
    |    |    |    |-- login.html           # Use layout `base-fullscreen.html`
-   |    |    |    |-- register.html        # Use layout `base-fullscreen.html`  
+   |    |    |    |-- register.html        # Use layout `base-fullscreen.html`
    |    |    |
    |    |  index.html                      # The default page
    |    |  page-404.html                   # Error 404 page (page not found)
